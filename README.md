@@ -69,3 +69,29 @@ Example
 ```bash
   python Deit_based_evaluation.py --use-cuda --method rollout --arch moco_v3_deit_base --data_path ../storage/imagenet_1000samples/ --output_dir ../storage/quant_results/ --saliency False
 ```
+
+## Results
+Bellow, some qualitative and quantitative results are presented:
+- Saliency maps for a given input image, obtained from different models that are based on ResNet 50, when using four different CAM-based methods
+
+![qual_res](https://user-images.githubusercontent.com/74918841/212973589-bad8258d-a88c-4370-a4b9-9e9a63dcf658.png)
+
+- Qualitative and quantitative results for all ResNet-based models, when using the GradCAM method
+
+![qual_quant_res](https://user-images.githubusercontent.com/74918841/212977958-afe13f21-49bc-46ac-973a-a8afc5d5b672.png)
+
+- Quantitative evaluation of CAM-based saliency maps for models using ResNet as a backbone
+
+![quant_res](https://user-images.githubusercontent.com/74918841/212978765-a7bd1363-fa84-4264-b3c2-dd739effd757.png)
+
+- Visualization of Raw attention maps derived from different layers and from models that are using DeiT as a backbone
+
+![qual_raw_deit](https://user-images.githubusercontent.com/74918841/212979452-98815efa-e5f0-4a56-9418-65e34b96c3f4.png)
+
+- Qualitative results for DeiT-based models when the Rollout method and Raw attention maps, derived from the last layer, are used
+
+![qual_raw_rollout](https://user-images.githubusercontent.com/74918841/212981569-09ac8f00-ff7a-456e-87b2-02edbbfca406.png)
+
+- Quantitative results for DeiT-based models when Raw attention maps, derived from the last layer, are used.
+
+![quant_raw](https://user-images.githubusercontent.com/74918841/212982076-7bcdeaec-b2b4-4a1e-85f9-c9913a8a6e3b.png)
