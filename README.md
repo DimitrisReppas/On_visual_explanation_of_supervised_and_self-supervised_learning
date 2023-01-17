@@ -84,7 +84,7 @@ Bellow, some qualitative and quantitative results are presented:
 
 ![quant_res](https://user-images.githubusercontent.com/74918841/212978765-a7bd1363-fa84-4264-b3c2-dd739effd757.png)
 
-- Visualization of Raw attention maps derived from different layers and from models that are using DeiT as a backbone
+- Visualization of Raw attention maps derived from different layers and from models that use DeiT as a backbone
 
 ![qual_raw_deit](https://user-images.githubusercontent.com/74918841/212979452-98815efa-e5f0-4a56-9418-65e34b96c3f4.png)
 
